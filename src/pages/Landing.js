@@ -6,6 +6,7 @@ import { OrbitControls, Text } from "@react-three/drei";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as THREE from "three";
+import Resume from "../assets/Resume/TylerBoylesResume.pdf";
 
 const about = [
   "HTML",
@@ -117,7 +118,7 @@ export default function Landing() {
           <a target="_blank" rel="no-refferer" href="https://www.linkedin.com/in/tyler-boyles/">
             <img src={linkedinIcon} alt="linkedinIcon" />
           </a>
-          <a target="_blank" rel="no-refferer" href="/">
+          <a target="_blank" rel="no-refferer" href={Resume}>
             <img src={resumeIcon} alt="resumeIcon" />
           </a>
         </div>

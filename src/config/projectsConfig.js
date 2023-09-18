@@ -10,23 +10,23 @@ const projectsConfig = [
   {
     title: "NFT Marketplace",
     type: "Web App",
-    liveLink: "https://nft-place.web.app/",
-    githubLink: "",
+    liveLink: "https://tyler-boyles-internship.vercel.app/",
+    githubLink: "https://github.com/Tboyles214/Tyler-Boyles-internship",
     coverImage: NftCoverImage,
   },
   {
     title: "Treact",
     type: "Web App",
-    liveLink: "https://jonathan6242.github.io/treact/",
-    githubLink: "https://jonathan6242.github.io/treact/",
+    liveLink: "https://treact-seven.vercel.app/",
+    githubLink: "https://github.com/Tboyles214/treact",
     coverImage: TreactCoverImage,
 
   },
   {
     title: "React Ecommerce",
     type: "Web App",
-    liveLink: "",
-    githubLink: "",
+    liveLink: "https://ecommerce-store-tawny-three.vercel.app/",
+    githubLink: "https://github.com/Tboyles214/Ecommerce-store",
     coverImage: EcommerceCover,
 
   },
