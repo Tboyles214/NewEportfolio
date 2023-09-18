@@ -7,6 +7,7 @@ import { experienceConfig } from "../config/resume/experienceConfig";
 import { technicalSkillsConfig } from "../config/resume/technicalSkillsConfig";
 import { transferrableSkillsConfig } from "../config/resume/transferrableSkillsConfig";
 import { AnimatedHeader } from "../components/AnimateHeader";
+import resumePdf from "../assets/Resume/TylerBoylesResume.pdf";
 
 const Resume = () => {
   return (
@@ -29,7 +30,7 @@ const Resume = () => {
             <div className="resume__contact--info">
               <div>
                 <FaDownload />
-                <a className="resume__link" href="/resume.pdf" target="_blank">
+                <a className="resume__link" href={resumePdf} target="_blank">
                   Download resume
                 </a>
               </div>

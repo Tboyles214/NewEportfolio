@@ -686,7 +686,7 @@ nav.open {
   width: 100%;
   position: absolute;
   transform: translateY(-100%);
-  transition: all 300ms ease-in-out;
+  transition: all 500ms ease-in-out;
 }
 
 .project:hover .project__img {

@@ -1,5 +1,6 @@
 import React from "react";
 import { MdOutlineArrowUpward } from "react-icons/md";
+import Resume from "../assets/Resume/TylerBoylesResume.pdf";
 
 const Footer = () => {
   return (
@@ -18,10 +19,10 @@ const Footer = () => {
           <a target="_blank" href="https://www.linkedin.com/in/tyler-boyles/">LinkedIn</a>
         </div>
         <div>
-          <a href="">Email</a>
+          <a href="mailto:tboyles244@gmail.com">Email</a>
         </div>
         <div>
-          <a href="">Resume</a>
+          <a target="_blank" href={Resume}>Resume</a>
         </div>
       </div>
       <div>Copyright &copy; 2023 Tyler Boyles</div>
